@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.FILE">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="472"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="f2432">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="41" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3e240" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="远程文件管理"/>
+            </properties>
+          </component>
+          <component id="2122f" class="javax.swing.JButton" binding="连接Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="连接"/>
+            </properties>
+          </component>
+          <component id="89023" class="javax.swing.JButton" binding="断开连接Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="断开连接"/>
+            </properties>
+          </component>
+          <component id="9e174" class="javax.swing.JButton" binding="返回上一级Button">
+            <constraints/>
+            <properties>
+              <text value="返回上一级"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="d2a15">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="41" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6d66" class="javax.swing.JTextField" binding="ip">
+            <constraints/>
+            <properties>
+              <font name="Brush Script MT" size="12" style="0"/>
+              <horizontalAlignment value="0"/>
+              <text value="localhost"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <component id="6fbf8" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="41" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <toolbar id="61966">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e4427" class="javax.swing.JTextField" binding="port">
+            <constraints/>
+            <properties>
+              <font name="Brush Script MT" style="0"/>
+              <horizontalAlignment value="0"/>
+              <text value="5000"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="f49ec">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b2a59" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="本地文件查看器"/>
+            </properties>
+          </component>
+          <component id="fd707" class="javax.swing.JButton" binding="返回上一级Button1">
+            <constraints/>
+            <properties>
+              <text value="返回上一级"/>
+            </properties>
+          </component>
+          <component id="f755d" class="javax.swing.JButton" binding="本地上传Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="本地上传"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <scrollpane id="560d9" binding="scrollPane1" custom-create="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="41" height="360"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5d6a9" class="javax.swing.JTree" binding="tree2" custom-create="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="5b2e4" binding="scrollPane2" custom-create="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b6199" class="javax.swing.JTree" binding="tree1" custom-create="true" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="d2235" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
